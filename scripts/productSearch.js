@@ -45,12 +45,6 @@ selectProduct.addEventListener("change", (e) => {
     viewProducts.parentElement.style.display = "none";
   }
 
-  // if (e.target.value) {
-  //   e.target.value == "category" ? (categoryDropdown.style.display = "block") : showProducts("all");
-  // } else {
-  //   categoryDropdown.style.display = "none";
-  //   viewProducts.parentElement.style.display = "none";
-  // }
 });
 
 selectCategory.addEventListener("change", (e) => {
